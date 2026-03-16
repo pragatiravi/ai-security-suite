@@ -1,0 +1,7 @@
+No settings file detected at /app/modelscan-settings.toml. Using defaults. 
+
+Scanning /app/safe_model.pkl using modelscan.scanners.PickleUnsafeOpScan model scan
+
+[34m--- Summary ---[0m
+
+[32m No issues found! 🎉[0m

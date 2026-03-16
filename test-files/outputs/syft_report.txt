@@ -1,0 +1,66 @@
+]11;?\[6n[?25l[?2004h  [92m✔[0m [1mIndexed file system[0m             [90m/scan [0m
+[0001]  WARN no explicit name and version provided for directory source, deriving artifact ID from the given path (which is not ideal)
+[2A
+ [95m⠙[0m [1mCataloging contents[0m             [90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m  [90ma96462bd35ec313c66d7bfadee750937cbdfcf1d92b30330d246fad3d0ed2a62 [0m
+   └── [95m⠙[0m Packages                        
+[0001]  WARN no explicit name and version provided for directory source, deriving artifact ID from the given path (which is not ideal)
+[4A
+
+
+         ├── [95m⠋[0m 
+         └── [95m⠋[0m 
+[0001]  WARN no explicit name and version provided for directory source, deriving artifact ID from the given path (which is not ideal)
+[6A
+
+
+
+         ├── [95m⠋[0m 
+         └── [95m⠋[0m 
+[0001]  WARN no explicit name and version provided for directory source, deriving artifact ID from the given path (which is not ideal)
+[7A
+
+
+
+         └── [95m⠋[0m 
+[0001]  WARN no explicit name and version provided for directory source, deriving artifact ID from the given path (which is not ideal)
+[J[6A
+
+
+         ├── [95m⠙[0m 
+         ├── [95m⠋[0m 
+         └── [95m⠋[0m 
+[0001]  WARN no explicit name and version provided for directory source, deriving artifact ID from the given path (which is not ideal)
+[7A
+
+   ├── [95m⠙[0m Packages                        
+   │     └── [95m⠙[0m 
+   ├── [95m⠋[0m 
+   └── [95m⠋[0m 
+
+[7A
+ [95m⠹[0m [1mCataloging contents[0m             [90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m[90m━[0m  [90ma96462bd35ec313c66d7bfadee750937cbdfcf1d92b30330d246fad3d0ed2a62 [0m
+   ├── [95m⠹[0m Packages                        
+   ├── [92m✔[0m File digests                    [90m[1 files][0m  
+   ├── [92m✔[0m Executables                     [90m[0 executables][0m  
+   └── [92m✔[0m File metadata                   [90m[1 locations][0m  
+
+[7A
+
+   ├── [92m✔[0m Packages                        [90m[4 packages][0m  
+
+
+
+
+[7A
+ [92m✔[0m [1mCataloged contents[0m              [90ma96462bd35ec313c66d7bfadee750937cbdfcf1d92b30330d246fad3d0ed2a62 [0m
+
+
+
+
+
+[2K[?2004l[?25h[?1002l[?1003l[?1006lNAME      VERSION  TYPE      
+flask     2.0.0    python  [90m[0m  [0m
+numpy     1.19.0   python  [90m[0m  [0m
+pandas    1.1.0    python  [90m[0m  [0m
+requests  2.25.1   python  [90m[0m  [0m
+[3;95mA newer version of syft is available for download: 1.42.2 (installed version is 1.42.1)[0m

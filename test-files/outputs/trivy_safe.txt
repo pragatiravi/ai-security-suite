@@ -1,0 +1,25 @@
+2026-03-16T05:10:02Z	[94mINFO[0m	[vulndb] Need to update DB
+2026-03-16T05:10:02Z	[94mINFO[0m	[vulndb] Downloading vulnerability DB...
+2026-03-16T05:10:02Z	[94mINFO[0m	[vulndb] Downloading artifact...	repo="mirror.gcr.io/aquasec/trivy-db:2"
+
+2026-03-16T05:10:26Z	[94mINFO[0m	[vulndb] Artifact successfully downloaded	repo="mirror.gcr.io/aquasec/trivy-db:2"
+2026-03-16T05:10:26Z	[94mINFO[0m	[vuln] Vulnerability scanning is enabled
+2026-03-16T05:10:26Z	[94mINFO[0m	[secret] Secret scanning is enabled
+2026-03-16T05:10:26Z	[94mINFO[0m	[secret] If your scanning is slow, please try '--scanners vuln' to disable secret scanning
+2026-03-16T05:10:26Z	[94mINFO[0m	[secret] Please see https://trivy.dev/docs/v0.69/guide/scanner/secret#recommendation for faster secret detection
+2026-03-16T05:10:26Z	[94mINFO[0m	Number of language-specific files	num=0
+2026-03-16T05:10:26Z	[93mWARN[0m	[report] Supported files for scanner(s) not found.	scanners=[vuln]
+2026-03-16T05:10:26Z	[94mINFO[0m	[report] No issues detected with scanner(s).	scanners=[secret]
+[0m
+[4m[1m[4mReport Summary[0m[4m[0m
+
+[0m[2m┌────────┬──────┬─────────────────┬─────────┐[0m
+[2m│[0m [1mTarget[0m [2m│[0m [1mType[0m [2m│[0m [1mVulnerabilities[0m [2m│[0m [1mSecrets[0m [2m│[0m
+[2m├────────┼──────┼─────────────────┼─────────┤[0m
+[2m│[0m   -    [2m│[0m  -   [2m│[0m        -        [2m│[0m    -    [2m│[0m
+[2m└────────┴──────┴─────────────────┴─────────┘[0m
+[0mLegend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+[0m

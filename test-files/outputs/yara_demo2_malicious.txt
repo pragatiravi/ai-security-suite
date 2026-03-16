@@ -1,0 +1,1 @@
+MaliciousString /data/yara-test/malicious.txt

@@ -1,0 +1,23 @@
+No settings file detected at /app/modelscan-settings.toml. Using defaults. 
+
+Scanning /app/malicious_model.pkl using modelscan.scanners.PickleUnsafeOpScan model scan
+
+[34m--- Summary ---[0m
+
+Total Issues: [1;36m1[0m
+
+Total Issues By Severity:
+
+    - LOW: [1;32m0[0m
+    - MEDIUM: [1;32m0[0m
+    - HIGH: [1;32m0[0m
+    - CRITICAL: [1;36m1[0m
+
+[34m--- Issues by Severity ---[0m
+
+[34m--- CRITICAL ---[0m
+
+Unsafe operator found:
+  - Severity: CRITICAL
+  - Description: Use of unsafe operator 'system' from module 'posix'
+  - Source: /app/malicious_model.pkl

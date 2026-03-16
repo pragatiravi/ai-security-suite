@@ -1,0 +1,55 @@
+[main]	INFO	profile include tests: None
+[main]	INFO	profile exclude tests: None
+[main]	INFO	cli include tests: None
+[main]	INFO	cli exclude tests: None
+[main]	INFO	running on Python 3.10.19
+[95mRun started:2026-02-19 08:06:08.865677+00:00[0m
+[95m
+Test results:[0m
+[94m>> Issue: [B404:blacklist] Consider possible security implications associated with the subprocess module.
+   Severity: Low   Confidence: High
+   CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.3/blacklists/blacklist_imports.html#b404-import-subprocess
+   Location: /app/vulnerable.py:1:0[0m
+1	import subprocess
+2	
+3	password = "123456"  # hardcoded password
+
+--------------------------------------------------
+[94m>> Issue: [B105:hardcoded_password_string] Possible hardcoded password: '123456'
+   Severity: Low   Confidence: Medium
+   CWE: CWE-259 (https://cwe.mitre.org/data/definitions/259.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.3/plugins/b105_hardcoded_password_string.html
+   Location: /app/vulnerable.py:3:11[0m
+2	
+3	password = "123456"  # hardcoded password
+4	
+
+--------------------------------------------------
+[91m>> Issue: [B602:subprocess_popen_with_shell_equals_true] subprocess call with shell=True identified, security issue.
+   Severity: High   Confidence: High
+   CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.3/plugins/b602_subprocess_popen_with_shell_equals_true.html
+   Location: /app/vulnerable.py:6:4[0m
+5	def run_command(cmd):
+6	    subprocess.call(cmd, shell=True)
+7	
+
+--------------------------------------------------
+[95m
+Code scanned:[0m
+	Total lines of code: 5
+	Total lines skipped (#nosec): 0
+[95m
+Run metrics:[0m
+	Total issues (by severity):
+		Undefined: 0
+		Low: 2
+		Medium: 0
+		High: 1
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 2
+[95mFiles skipped (0):[0m
