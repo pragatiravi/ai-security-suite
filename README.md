@@ -39,19 +39,6 @@ Real-time analytics and threat monitoring
 Visual insights into vulnerabilities
 Risk scoring and reporting
 
-🏗️ Architecture
-Frontend (React / Next.js)
-        ↓
-Backend API (Node.js / FastAPI)
-        ↓
-AI Security Engine
-   ├── Prompt Analyzer
-   ├── Vulnerability Scanner
-   ├── Output Filter
-   └── Risk Scoring Engine
-        ↓
-Database (MongoDB / PostgreSQL)
-
 🛠️ Tech Stack
 
 Frontend: React.js / Next.js
