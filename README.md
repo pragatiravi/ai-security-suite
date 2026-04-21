@@ -42,10 +42,15 @@ Risk scoring and reporting
 🛠️ Tech Stack
 
 Frontend: React.js / Next.js
+
 Backend: Node.js / FastAPI
+
 AI/ML: OpenAI APIs / Custom Models
+
 Database: MongoDB / PostgreSQL
+
 Security Tools: Static Analysis, NLP Filters
+
 Cloud: AWS / Azure
 
 📦 Installation
